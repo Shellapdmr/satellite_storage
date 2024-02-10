@@ -1,0 +1,16 @@
+.checkbox-fieldset {
+    border: none;
+    padding: 0;
+}
+
+.checkbox-fieldset label {
+    display: inline-block;
+    margin-left: 20px; /* Jarak antara checkbox dan teks judul */
+    vertical-align: middle;
+}
+
+.checkbox-fieldset input[type="checkbox"] {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px; /* Jarak antara checkbox dan teks judul */
+}

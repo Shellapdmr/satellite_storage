@@ -1,0 +1,69 @@
+<?php
+$servername = "localhost";
+$username = "root";
+$password = "";
+$host = 'localhost';
+$user = 'root';
+$pass = '';
+$dbname = 'satellite_storage';
+$port = 3308;
+
+// Create connection
+$conn = mysqli_connect($servername,$user,$pass,$dbname,$port);
+
+// Check connection
+
+?>
+
+
+Mine area : <input type="text" name="mineArea"> <br>
+                Department : <input type="text" name="department"> <br>
+                Section : <input type="text" name="section"> <br>
+                Username : <input type="text" name="username"> <br>
+                Password : <input type="text" name="password"> <br>
+                <input type="submit" name="submit" value="Login"> <br>
+
+
+<div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+            Storage Asal 
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+            <li><button class="dropdown-item" type="button">32BR</button></li>
+            <li><button class="dropdown-item" type="button">KKPR</button></li>
+            <li><button class="dropdown-item" type="button">SGRD</button></li>
+            <li><button class="dropdown-item" type="button">68YL</button></li>
+            <li><button class="dropdown-item" type="button">LEBR</button></li>
+            <li><button class="dropdown-item" type="button">RCGN</button></li>
+            <li><button class="dropdown-item" type="button">GMBL</button></li>
+            <li><button class="dropdown-item" type="button">RCBK</button></li>
+            <li><button class="dropdown-item" type="button">Jakarta Yard</button></li>
+            <li><button class="dropdown-item" type="button">Makassar Yard</button></li>
+        </ul>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
